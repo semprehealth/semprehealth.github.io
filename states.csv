@@ -1,0 +1,205 @@
+City,State,Zip,Patient ID,Pharmacy
+Pembrooke,VA,24136,18,Walmart
+Newnan,GA,30263,23,Goodrum Pharmacy
+Ranson,WV,25438,20,Rite Aid
+Coatesville,PA,19320,137,Walgreens
+Peoria,IL,61605,117,CVS
+Hiram,GA,30141,154,CVS
+Alma,MI,48801,38,Meijer Pharmacy
+Lacey,WA,98516,98,Safeway
+Lansing,MI,48917,39,Meijer Pharmacy
+East Syracuse,NY,13057,153,Wegman's
+North Chesterfield,VA,23235,15,Kroger
+North Canton,OH,44720,34,Aultman Pharmacy
+San Antonio,TX,78247,109,Cigna
+York,SC,29745,116,Rite Aid
+Roseau ,MN,56751,99,Shopko
+Kankakee,IL,60901,128,Orchard Rx
+Pottsville,PA,17901,120,Rite Aid
+Greensboro,NC,27401,141,Rite Aid
+Brunswick,ME,04011,76,Rite Aid
+Manchester,NH,03103,135,Walgreens
+Sterline,VA,20164,160,Kaiser Permanente
+Burien,WA,98168,113,Medco Health
+Lafayette,LA,70506,285,Rite Aid
+Mocksville,NC,27028,227,Walgreens
+Cleveland,TN,37312,337,Walgreens
+Edison,NJ,08817,8,Walgreens
+Las Vegas,NV,89102,483,Walmart
+Albuquerque,NM,87114,347,Prime Therapeutics
+Temple,TX,76502,311,HEB Pharmacy
+Denton,TX,76205,305,Brookshire's Pharmacy
+Philadelphia,PA,19102,179,CVS
+Wentzville,MO,63385,444,Schnucks
+Bethesda,MD,20810,496,CVS
+Caldwell,OH,43724,274,Davis Drug
+Huntsville,AL,35811,455,Chase Pharmacy
+Independence,MO,64052,426,CVS
+Eden Prairie,MN,55344,47,Walmart
+Mount Carmel,PA,17851,209,CVS
+Livonia,MI,48152,115,CVS
+Brooklyn,NY,11211,148,CVS
+Evans Mills,NY,13637,208,Walmart
+Orlando,FL,32806,322,Target
+Spring,TX,77373,211,Walmart
+Algonquin,IL,60102,48,Target
+Freeport,ME,04032,294,CVS
+Pittsburgh,PA,15213,313,Rite Aid
+Highland Lakes,NJ,07422,304,CVS
+Albuquerque,NM,87114,77,Prime Therapeutics
+Shreveport,LA,71106,151,CVS
+Arlington,MA,02476,140,Walgreens
+Fremont,CA,94538,384,Walgreens
+Auburn,ME,04210,162,Rite Aid
+West Palm Beach,FL,33411,474,OptumRx
+Oneida,TN,37841,30,Walmart
+Houston,TX,77089,356,Kroger
+New Haven,CT,06511,200,Yale Health
+Old Forge,PA,18518,299,CVS
+Wilkes-Barre,PA,18711,73,CVS
+Milwaukee,WI,53202,270,
+Lafayette,LA,70506,53,University Hospital & Clinics Outpatient
+Red Wing,MN,55066,355,Walgreens
+Corpus Christi,TX,78413,437,CVS
+Garland,TX,75044,514,Kroger
+Fort Worth,TX,76108,518,CVS
+Ferguson,MO,63135,268,Walgreens
+Tampa,FL,33647,222,Walgreens
+Chicago,IL,60625,123,Pharmacy One Plus
+Arlington,TX,76010,275,CVS
+Mountain View,CA,94041,454,Kaiser Permanente
+Debary,FL,32713,310,Walgreens
+Browns Mill,NJ,08015,180,CVS
+Chicago,IL,60639,397,Walgreens
+Logan,UT,84322,390,Utah State University
+Portsmouth,VA,23708,101,Navy Medicine Outpatient
+Monroe,MI,48162,348,Meijer Pharmacy
+Dubuque,IA,52002,44,Mercy Pharmacy
+Chapel Hill,NC,27514,371,Rite Aid
+Depew,NY,14043,486,Walmart
+Rogers,AR,72745,330,Walmart
+Yuma,AZ,85364,468,CVS
+Lafayette,LA,70508,439,CVS
+Mount Dora,FL,32757,25,CVS
+McFarland,WI,53558,359,Medicine Shoppe
+Worcester,MA,016044,1,Walgreens
+Anderson,SC,29621,484,Bi-Lo
+Ogden,UT,84404,213,Walgreens
+Cleveland,MS,38732,185,Walgreens
+Villa Rica,GA,30180,233,CVS
+Cranberry Township,PA,16066,206,Target
+Lakewood,CO,80215,292,Blue Spruce Pharmacy
+Sherwood,AR,72120,364,Walmart
+Pagosa Springs,CO,81147,372,City Market Pharmacy
+Baton Rouge,LA,70818,373,Walmart
+Melbourne,FL,32940,225,Walgreens
+Sacramento,CA,95816,230,Rite Aid
+Morgantown,WV,26505,293,Walgreens
+Russellville,AR,72801,434,Walgreens
+Delray Beach,FL,33484,165,South County Mental Health Center
+Plaineville,MA,02762,287,CVS
+North Augusta,SC,29841,307,Rite Aid
+West Palm Beach,FL,33411,97,Publix Pharmacy
+Chambersburg,PA,17201,75,CVS
+Brodheadsville,PA,18322,335,Rite Aid
+Mesquite,TX,75149,469,Walmart
+Bennington,VT,05201,205,CVS
+Greensboro,NC,27410,401,Target
+Albany,NY,12203,5,Rite Aid
+Rockford,MI,49341,301,Meijer Pharmacy
+Overland Park,KS,66209,510,Walgreens
+Fresno,CA,93711,461,Save Mart Pharmacy
+Baltimore,MD,21218,447,CVS
+Cleveland,OH,66211,114,OptumRx
+Henderson,KY,42480,425,T&T Drugs
+Waverly,IA,50677,43,Walmart
+Sarasota,FL,34233,498,Walmart
+Providence,RI,02906,156,CVS
+Austintown,OH,44515,367,TMMG Pharmacy
+Metairie,LA,70003,259,Walmart
+Troutdale,OR,97060,302,Safeway
+Arlington Heights,IL,60004,511,OscoDrug
+Marietta,GA,30062,430,CVS
+Ventura,CA,93001,522,Rite Aid
+Canton,GA,30114,432,CVS
+Kansas City,MO,64105,336,CVS
+Baton Rouge,LA,70814,489,Rite Aid
+West Palm Beach,FL,33411,378,Walgreens
+Abilene,KS,67410,471,
+Ashburn,VA,20148,14,Safeway
+Madison ,WI,53703,396,
+Ada,OK,74820,241,Walmart
+Des Moines,IA,50314,107,Walgreens
+Roanoke,VA,24012,17,Kroger
+Kingston,NY,12401,319,Express Scripts
+Dublin,OH,43017,66,Kroger
+Federal Way,WA,98023,221,Express Scripts
+Farmingdale,NJ,07727,477,Direct Success Pharmacy
+Winnemucca,NV,89445,435,Olsen's Corner Drugstore
+Baltimore,MD,21117,284,Safeway
+Cleveland,OH,44111,33,CCF Fairview Pharmacy
+Iowa,LA,70647,210,Fred's Pharmacy
+Soddy Daisy,TN,37378,513,CVS
+Littleton,CO,80128,161,Walgreens
+Lubbock,TX,79413,57,CVS
+Houston,TX,77001,215,Walgreens
+Cherry Hill,NJ,08002,239,Walgreens
+Anderson,IN,46012,35,OptumRx
+Charlotte,NC,28277,440,Harris Teeter Pharmacy
+Peoria,AZ,85383,385,Walgreens
+Albuquerque,NM,87101,282,Express Scripts
+Syracuse,NY,13201,321,Rite Aid
+Salt Lake City,UT,84101,324,Express Scripts
+Maryland Heights,MO,63043,491,RxOutreach
+Brooklyn,NY,11211,90,Mittman's Pharmacy
+Milwaukee,WI,53214,326,Target
+Nacogdoches,TX,75965,139,Walmart
+Belleville,MI,48111,146,Sumpter Pharmacy
+Old Town,FL,32680,306,Walgreens
+Houston,TX,77002,143,Express Scripts
+Roseville,CA,95661,133,Kaiser Permanente
+Whippany,NJ,07936,193,CVS
+West Mifflin,PA,15122,381,Giant Eagle Pharmacy
+Houghton,MI,49931,308,Walmart
+Rohnert Park,CA,94928,408,CVS
+York,PA,17404,100,Walmart
+Saint Paul,MN,55104,420,CVS
+Columbus,OH,43210,416,Walgreens
+Denver,CO,80123,331,CVS
+Demopolis,AL,36732,172,Boone's Pharmacy
+Portland,OR,97206,63,Express Scripts
+Carnegie,PA,15106,9,Walmart
+Gainesville,GA,30507,24,Walgreens
+Crookston,MN,56716,260,Walmart
+Chandler,AZ,85226,411,CVS
+Broadway,VA,22815,494,Broadway Drug Center
+Waco,TX,76705,55,HEB Pharmacy
+Toledo,OH,43613,68,Kroger
+Colombus,OH,43085,374,Catamaran Home Delivery
+Staten Island,NY,10314,387,CVS
+Boise,ID,83713,84,Albertson's
+Jonesville,MI,49250,88,Community Health Center of Branch County
+Belmont,NC,28012,244,CVS
+Colorado Springs,CO,80920,130,Walgreens
+Bloomington,IL,61701,458,OscoDrug
+Charleston,WV,25301,74,Walmart
+Wheaton,IL,60187,104,
+College Point,NY,11356,217,Target
+Fishers,IN,46037,231,Express Scripts
+Boynton Beach,FL,33426,509,CVS
+Chapel Hill,NC,27514,315,CVS
+Beech Island,SC,29842,212,Walgreens
+Arnold,MO,63010,246,CVS
+Greensboro,NC,27401,328,Express Scripts
+Spring,TX,77386,488,Walmart
+Burley,ID,83318,159,Smith's
+Toledo,OH,43606,267,Express Scripts
+Federal Way,WA,98003,343,Rite Aid
+Rancho Palos Verdes,CA,90275,216,Kaiser Permanente
+Des Plaines,IL,60016,234,Walgreens
+Biloxi,MS,39530,516,OptumRx
+Des Moines,IA,50314,177,Broadlawns Pharmacy
+Richardson,TX,75080,263,Walgreens
+Junction City,KS,66441,266,CVS
+Lancaster,OH,43130,144,
+Elyria,OH,44035,453,Walgreens

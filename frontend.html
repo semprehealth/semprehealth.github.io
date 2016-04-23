@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Frontend Test</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	body {
+		font-family: 'Raleway', sans-serif;
+		height: 100%;
+		width: 100%;
+	}
+
+	#content {
+		padding: 20px 20px;
+	}
+	.bold {
+		font-weight: 700;
+	}
+</style>
+</head>
+
+<body>
+<div id="content">
+	
+	<h1>Frontend Challenge</h1>
+	<div>
+		<h3>Part 1: Map</h3>
+
+		<p>
+			Given a set of geographic data about some of our 
+			patients, create an HTML page with <a href="https://d3js.org/">D3</a> containing a graph of the U.S. The dataset is 
+			available as a CSV file <a href="/states.csv">here</a>.
+		</p>
+		<p>
+			The CSV has columns City, State, Zip, Patient ID, and pharmacy. Each row represents a
+			single patient. The graph should show show each state in the US, and the color of the 
+			state should vary depending on the number of patients in that state (states with more patients, should be darker than states with fewer patients).
+		</p>
+		<p>
+			You may use raw D3 or D3 wrapper libraries.
+		</p>
+		<p>
+			Tip: You will need to aggregate patients from the same state. You can do this 'live'
+			on the page, or pre-process the CSV on own before rendering.
+		</p>
+
+		<h3>Part 2: Interactions</h3>
+		<p>
+			Once the graph is rendered, add the following 2 interactions:
+
+			<ol>
+				<li>
+					When hovering over a state, change the color of the state to black
+				</li>
+				<li>
+					When clicking on a state, show a JavaScript alert with the selected state's 
+					name and patient count
+				</li>
+			</ol>
+		</p>
+
+		<h3>Rules</h3>
+		<p>
+			Please use any external libraries or code snippets that you see fit, but please include 
+			links / references to whatever you use in your submission. 
+		</p>
+
+		<h3>Submission</h3>
+		<p>
+			When finished, zip up all the files required to load your page, and email them to 
+			<a href="mailto:swaraj@semprehealth.com" target="_top">swaraj@semprehealth.com</a>.
+		</p>
+		<p>
+			Extra credit for:
+			<ul>
+				<li>Hosting the page at a public URL</li>
+				<li>Adding additional, custom interactions and animations</li>
+			</ul>
+		</p>
+
+
+	</div>
+</div>
+
+
+</body>
+</html>
