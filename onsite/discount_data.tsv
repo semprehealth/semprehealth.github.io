@@ -1,3 +1,4 @@
 patient_id	phone_number	drug	discount_today	discount_next_week
-1	8472074454	Metformin	10	5
-2	8472074454	Brillinta	8	4
+1	8472074454	Metformin	20	10
+2	8472074454	Metformin	8	4
+3	8472074454	Bupriopion	10	5
