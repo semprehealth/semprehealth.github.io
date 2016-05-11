@@ -17,23 +17,27 @@
 <li>Optimal time to send is <strong>9am</strong></li>
 </ul>
 </li>
-<li></li>
-<li>{ “patient_id”: “1”, “source”: “sempre”, “message”: “Your discount is X…”, “sent_at”: “2016-05-01T09:00Z”}
+<li>Input is a tab-separated file w/ columns:
 <ul>
-<li>{ “patient_id”: “1”, “source”: “patient”, “message”: “Thanks!”, “sent_at”: “2016-05-01T09:01Z”}
-<ul>
-<li>1 minute difference</li>
+<li><code>patient_id (str)</code></li>
+<li><code>source (str = 'sempre' || 'patient')</code></li>
+<li><code>message (str)</code></li>
+<li><code>sent_at (date YYYY-MM-DDThh:mm-07:00</code>)</li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-<pre><code>{
+<li>Output is JSON file like:<pre><code>{
     &quot;patients&quot;: {
-        &quot;1&quot;: &quot;2016-05-01T09:00Z&quot;
+        &lt;patient_id&gt;: &lt;time in hh:mm&gt;,
+        &quot;1&quot;: &quot;09:00&quot;,
+        &quot;2&quot;: &quot;13:00&quot;,
+        ...
     }
 }
 </code></pre>
+</li>
+<li>API: <code>python determine_optimal_send_times.py --messages_path &lt;messages.tsv&gt; --optimal_send_times_file &lt;output.json&gt;</code></li>
+<li><a href="/messages.tsv">Input file TSV</a></li>
+</ul>
 </li>
 <li>
 <p><strong>Send SMS</strong>: Given list of patient IDs &amp; message paremeters, send SMS via Twilio</p>
@@ -55,8 +59,13 @@
 </ul>
 </li>
 </ol>
-<h2><a id="Improvements_37"></a>Improvements</h2>
+<h2><a id="Improvements_45"></a>Improvements</h2>
 <ul>
+<li><strong>Determine Optimal Send Times</strong>
+<ul>
+<li>Store optimal send times in a db</li>
+</ul>
+</li>
 <li><strong>Send SMS</strong>
 <ul>
 <li>Use a scheduler like Celery to queue SMS to be sent at optimal time</li>
