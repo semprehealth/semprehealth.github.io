@@ -46,7 +46,7 @@
 <p><strong>Send SMS</strong>: Given list of patient IDs &amp; messages to send today, send SMS via Twilio at <em>optimal time</em></p>
 <ul>
 <li>Given a file describing which patients to send messages to, and parameters of message, send texts via Twilio</li>
-<li>Ex: <em>“If you pick up your Metformin Rx today, you’ll save $10, but if you pick up next week, you’ll only save $5”</em></li>
+<li>Ex: <em>“If you pick up your Metformin rx today, you’ll pay just $10. If you wait till next week, you could pay up to $20”</em></li>
 <li>Based on the ‘optimal send times’ data from part 1, schedule texts to be sent to patients at the optimal time
 <ul>
 <li>Start simple, we can make this better if time permits</li>
@@ -59,9 +59,17 @@
 <li><code>drug (str)</code></li>
 <li><code>discount_today (int)</code></li>
 <li><code>discount_next_week (int)</code></li>
+<li><code>copay (int)</code></li>
 </ul>
 </li>
-<li>Log each text from message sent as well as time sent</li>
+<li>Message format:
+<ul>
+<li><code>copay_today = copay - discount_today</code></li>
+<li><code>copay_next_week = copay - discount_next_week</code></li>
+<li><em>“If you pick up your &lt;drug&gt; rx today, you’ll pay just $&lt;copay_today&gt;. If you wait till next week, you could pay up to $&lt;copay_next_week&gt;”</em></li>
+</ul>
+</li>
+<li>Log generated text as well as time text should be sent</li>
 <li>Usage: <code>python send_messages.py --discount_data &lt;discount_data.tsv&gt; --optimal_send_times_path &lt;optimal_send_times.json&gt;</code></li>
 <li><a href="discount_data.tsv">Discount data TSV</a></li>
 </ul>
@@ -70,9 +78,9 @@
 <p><strong>Receive SMS</strong>: Create a Twilio SMS handler that receives SMS &amp; responds to incoming SMS</p>
 <ul>
 <li>When patients text our Twilio number back, create a Twilio SMS handler that sends canned responses</li>
-<li>Switch (incoming message):
+<li>Switch (incoming message text):
 <ul>
-<li><em>“How do I redeem the discount?”</em> =&gt; <em>“Present your health insurance card and the following Rx coupon info to your pharmacist: RxBIN: 004682, PCN#: CN, and Group: EC95002002”</em></li>
+<li><em>“How do I redeem the discount?”</em> =&gt; <em>“Simply pick up your prescription as you normally would. Your pharmacist should alread have the necessary information. In case you’re asked, show the pharmacist the following group number: EC1718”</em></li>
 <li><em>“Thanks”</em> or <em>“Got it”</em> =&gt; <em>“No problem, keep filling on time to earn more discounts”</em></li>
 <li>Anything else =&gt; <em>“We’ll get back to you as soon as possible”</em></li>
 </ul>
@@ -82,7 +90,7 @@
 </ul>
 </li>
 </ol>
-<h2><a id="Extras_61"></a>Extras</h2>
+<h2><a id="Extras_66"></a>Extras</h2>
 <ul>
 <li><strong>Determine Optimal Send Times</strong>
 <ul>
@@ -93,7 +101,7 @@
 <ul>
 <li>Use a scheduler like Celery to queue SMS to be sent at optimal time</li>
 <li>Load optimal send times from db</li>
-<li>Randomly select different message templates (ex: <em>“Fill today and earn a $10 discount on your Metformin Rx. Next week it’ll be $5”</em></li>
+<li>Randomly select different message templates (ex: <em>“Fill today and you’ll pay $10 on your Metformin xx. Next week it’ll be $20”</em>)</li>
 </ul>
 </li>
 <li><strong>Receive SMS</strong>
