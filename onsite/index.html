@@ -44,15 +44,10 @@
 </ul>
 </li>
 <li>
-<p><strong>Send SMS</strong>: Given list of patient IDs &amp; messages to send today, send SMS via Twilio at <em>optimal time</em></p>
+<p><strong>Send SMS</strong>: Given list of patient IDs &amp; messages to send today, send SMS via Twilio</p>
 <ul>
 <li>Given a file describing which patients to send messages to, and parameters of message, send texts via Twilio</li>
 <li>Ex: <em>“If you pick up your Metformin rx today, you’ll pay just $10. If you wait till next week, you could pay up to $20”</em></li>
-<li>Based on the ‘optimal send times’ data from part 1, schedule texts to be sent to patients at the optimal time
-<ul>
-<li>Start simple, we can make this better if time permits</li>
-</ul>
-</li>
 <li>Input is a tab-separated file w/ columns:
 <ul>
 <li><code>patient_id (str)</code></li>
@@ -91,31 +86,4 @@
 </ul>
 </li>
 </ol>
-<h2><a id="Extras_67"></a>Extras</h2>
-<ul>
-<li><strong>Determine Optimal Send Times</strong>
-<ul>
-<li>Store optimal send times in a db</li>
-</ul>
-</li>
-<li><strong>Send SMS</strong>
-<ul>
-<li>Use a scheduler like Celery to queue SMS to be sent at optimal time</li>
-<li>Load optimal send times from db</li>
-<li>Randomly select different message templates (ex: <em>“Fill today and you’ll pay $10 on your Metformin xx. Next week it’ll be $20”</em>)</li>
-</ul>
-</li>
-<li><strong>Receive SMS</strong>
-<ul>
-<li>More robust parsing of inputs</li>
-<li>Forward un-handled messages to your own phone or Slack</li>
-</ul>
-</li>
-<li><strong>Other</strong>
-<ul>
-<li>What else?</li>
-</ul>
-</li>
-</ul>
-
 </body></html>
